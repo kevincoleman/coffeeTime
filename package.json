@@ -1,0 +1,24 @@
+{
+  "name": "coffeeTime",
+  "version": "0.0.1",
+  "description": "A slack bot for announcing that you want to go to coffee.",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:kevincoleman/coffeeTime.git"
+  },
+  "keywords": [
+    "coffee",
+    "bot",
+    "slack"
+  ],
+  "author": "Kevin Coleman",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevincoleman/coffeeTime/issues"
+  },
+  "homepage": "https://github.com/kevincoleman/coffeeTime"
+}

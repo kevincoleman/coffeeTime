@@ -5,7 +5,7 @@ module.exports = function(req, res, next){
   imageSearch.getImagesArray('coffee').done(function(img){
     var coffeePic = img[Math.floor(Math.random() * img.length) + 1];
     var botPayload = {
-      text: '![It’s Coffee Time.](' + coffeePic + ')'
+      text: coffeePic
     }
 
     return res.status(200).json(botPayload);
